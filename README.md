@@ -11,4 +11,3 @@ Esse é um projeto web que engloba aprendizados sobre HTML, CSS3, Bootstrap e Ja
 link:
 
 ## Link Projeto
-https://midouglas.github.io/formula1
