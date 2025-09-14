@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colunas</title>
+    <style>
+        .container {
+            display: grid;
+            row-gap: 50px;
+            grid-template-columns: auto auto auto;
+            background-color: dodgerblue;
+            padding: 10px;
+            column-gap: 50px;
+            row-gap: 1px;
+        }
+
+        .container > div {
+            background-color: white;
+            border: 10px solid black;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .borda {
+            border: 3px solid red;
+            text-align: center;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h4 class="borda">Teste grid</h4>
+    <h4 class="borda">Teste grid</h4>
+    <h4 class="borda">Teste grid</h4>
+    <h4 class="borda">Teste grid</h4>
+    <h4 class="borda">Teste grid</h4>
+    <h4 class="borda">Teste grid</h4>
+    <h4 class="borda">Teste grid</h4>
+    </div>
+    
+</body>
+</html>
